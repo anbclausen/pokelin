@@ -21,6 +21,13 @@ If you want to see a feature, please create an issue.
 
 *Remember that your AmazingFeature should be implemented using Test-Driven Development!*
 
+## The TDD(Test-Driven Development) Rythm
+1. Quickly add a test
+2. Run all tests and see the new one fail
+3. Make a little change
+4. Run all the tests and see them all succeed
+5. Refactor to remove duplication
+
 ## Authors
 These are the authors and main contributors of the project.
 * **Anders B. Clausen** - [anbclausen](https://github.com/anbclausen)
