@@ -21,7 +21,7 @@ If you want to see a feature, please create an issue.
 
 *Remember that your AmazingFeature should be implemented using Test-Driven Development!*
 
-## The TDD(Test-Driven Development) Rythm
+## The TDD (Test-Driven Development) Rhythm
 1. Quickly add a test
 2. Run all tests and see the new one fail
 3. Make a little change
