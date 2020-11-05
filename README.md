@@ -3,10 +3,7 @@ Project PokéLin is a PokéMon-like game developed strictly using Test-Driven De
 The intent of this project is to get familiar with TDD, Kotlin, Version Control and collaborative software development. 
 
 ## Getting Started
-Working on this...
-
-## Test List
-Empty for now.
+This game is currently in very early development. For that reason you will have to wait a little before you can play it. But please do come back soon!
 
 ## Contributing
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
