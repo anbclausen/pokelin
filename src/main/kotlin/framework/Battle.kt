@@ -5,6 +5,10 @@ package framework
  * and should handle the interaction between pokemon's and how these battle
  */
 interface Battle {
+    val allyTrainer: Trainer
+    val enemyTrainer: Trainer
+    var turn: Boolean //TODO: I think boolean is a nice way to represent this but I am not 100% sure
+
     //TODO: Implement Pokemon class and attack class
     /**
      * Uses an [attack] on the opposing pokemon
