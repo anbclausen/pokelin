@@ -9,12 +9,12 @@ interface Battle {
     val enemyTrainer: Trainer
     var turn: Boolean //TODO: I think boolean is a nice way to represent this but I am not 100% sure
 
-    //TODO: Implement Pokemon class and attack class
+    //TODO: Implement Pokemon class and move class
     /**
-     * Uses an [attack] on the opposing pokemon
+     * Uses a [move] on the opposing pokemon
      * TODO: I'm not sure this should be given an attacker or this can be calculated based on whose turn it is
      */
-    fun attack(attacker: Pokemon, attack: Attack)
+    fun useMove(attacker: Pokemon, move: Move)
 
     //TODO: Implement Item class
     /**
