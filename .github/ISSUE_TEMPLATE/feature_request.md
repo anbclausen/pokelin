@@ -5,11 +5,13 @@ title: 'Feature Request(s): x'
 
 ---
 
-**I'm requesting the following features**
-- Feature 1: [Description of Feature 1]
-- Feature 2: [Description of Feature 1]
-- ...
+## **I'm requesting the following feature**
+### Description of feature
+This feature does x and solves y
+### Why is this a good idea?
+I think it would make life great again due to, yada yada
 
-**Assignment**
-- [x] Please assign this to me.
+
+### **Assignment**
+- [x] I will implement this myself.
 - [ ] I would like someone else to implement this.
