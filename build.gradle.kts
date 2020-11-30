@@ -7,6 +7,7 @@
 plugins {
     // Apply the Kotlin JVM plugin to add support for Kotlin.
     id("org.jetbrains.kotlin.jvm") version "1.3.72"
+    id("java")
 
     // Apply the application plugin to add support for building a CLI application.
     application
@@ -16,6 +17,7 @@ repositories {
     // Use jcenter for resolving dependencies.
     // You can declare any Maven/Ivy/file repository here.
     jcenter()
+    mavenCentral()
 }
 
 dependencies {
@@ -30,6 +32,15 @@ dependencies {
 
     // Use the Kotlin JUnit integration.
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit")
+
+    // LibGDX
+    implementation("com.badlogicgames.gdx:gdx:1.9.10")
+    implementation("com.badlogicgames.gdx:gdx-backend-lwjgl:1.9.10")
+    implementation("com.badlogicgames.gdx:gdx-platform:1.9.10:natives-desktop")
+
+    // LibKTX
+    implementation("io.github.libktx:ktx-app:1.9.10-b2")
+    implementation("io.github.libktx:ktx-graphics:1.9.10-b2")
 }
 
 application {
